@@ -1,0 +1,125 @@
+@charset "euc-jp";
+/* CSS Document */
+
+
+div.contents h1, div.contents h2, div.contents h3, div.contents p,
+div.contents ul, div.contents ol, div.contents li, div.contents dl, div.contents dt, div.contents dd,
+div.contents form, div.contents fieldset,
+div.contents table, div.contents tr, div.contents th, div.contents td {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+}
+div.contents form, div.contents fieldset {
+	border: none;
+}
+div.contents ul, div.contents ol {
+	list-style: none outside;
+}
+div.contents img {
+	vertical-align: bottom;
+	border: none;
+}
+
+
+
+
+
+
+div.widget {
+	margin-top:10px;
+	width:275px;
+}
+
+div.widget div{
+	margin: 0 auto;
+}
+
+div.widget div.widget_contents {
+	border-radius: 8px 8px 8px 8px;
+	font-weight: normal;
+	overflow: hidden;
+	text-align: left;
+	width: 100%;
+	background-color: #33A33D;
+	border: 1px solid #E5FCCE;
+	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif !important;
+	font-size: 12px !important;
+	position: relative;
+	color: #666666;
+	height:444px;
+}
+
+div.widget div.widget_head {
+	overflow: hidden;
+	padding: 5px;
+	position: relative;
+	height:30px;
+}
+
+div.widget div.widget_head h4 {
+	font-size:18px;
+	color: #E5FCCE;
+	margin:3px;
+}
+
+div.widget div.widget_body {
+	padding: 0 1px;
+	color: #666666;
+	height:400px;
+	overflow: hidden;
+}
+
+div.widget div.widget_footer {
+	position: relative;
+	height:4px;
+}
+
+div.widget div.widget_body div.timeline {
+	background: #FFFFFF;
+	border-radius: 6px 6px 6px 6px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+	height:400px;
+}
+
+div.widget div.widget_body div.timeline div.message {
+	border-bottom: 1px dotted #DDDDDD;
+	overflow: hidden;
+}
+div.widget div.widget_body div.timeline div.message div.wrap {
+	overflow: hidden;
+	padding: 6px 8px;
+}
+div.widget div.widget_body div.timeline div.message div.wrap div.text {
+	margin-left: 0;
+	padding: 5px 0;
+}
+
+div.widget div.widget_body div.timeline div.message div.wrap div.text div.image {
+	float:left;
+	width:80px;
+}
+
+div.widget div.widget_body div.timeline div.message div.wrap div.text p {
+	float:left;
+	width:170px;
+	margin: 0;
+}
+
+div.widget div.widget_body div.timeline div.message div.wrap div.text a.tweet,
+div.widget div.widget_body div.timeline div.message div.wrap div.text a.message {
+	padding-right:12px;
+}
+
+div.widget div.widget_body div.timeline div.message div.wrap div.text span.user_attr {
+	float:right;
+}
+
+div.widget #message_template {
+	display:none;
+}
